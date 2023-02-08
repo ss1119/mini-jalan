@@ -1,0 +1,4093 @@
+[
+    {
+        "input": {
+            "keyword": "",
+            "advanced": false
+        },
+        "output": [
+            {
+                "id": 1,
+                "name": "コンドミニアム ゆうゆう勝浦",
+                "prefecture": 12,
+                "address": "千葉県勝浦市□□2-2",
+                "conditions": [],
+                "rooms": [
+                    {
+                        "id": 1,
+                        "name": "シングル",
+                        "capacity": 1,
+                        "count": 2,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "シングル・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 5,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "クイーンサイズ",
+                        "capacity": 4,
+                        "count": 9,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 2,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 1,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 1,
+                            "price": 8500,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 2,
+                            "name": "素泊まりプラン",
+                            "room_id": 2,
+                            "price": 3500,
+                            "conditions": []
+                        },
+                        {
+                            "id": 3,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 2,
+                            "price": 10000,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 4,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 3,
+                            "price": 14200,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 3,
+                            "price": 12200,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 3,
+                            "price": 8700,
+                            "conditions": []
+                        },
+                        {
+                            "id": 7,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 3,
+                            "price": 11700,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 8,
+                            "name": "素泊まりプラン",
+                            "room_id": 4,
+                            "price": 6300,
+                            "conditions": []
+                        },
+                        {
+                            "id": 9,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 4,
+                            "price": 8800,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 2,
+                "name": "ビジネスホテル ロイヤルレイク 新館",
+                "prefecture": 14,
+                "address": "神奈川県秦野市□□1-2",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 5,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 6,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 10,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 5,
+                            "price": 11988,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 11,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 5,
+                            "price": 13988,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 12,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 5,
+                            "price": 8488,
+                            "conditions": []
+                        },
+                        {
+                            "id": 13,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 5,
+                            "price": 11488,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 3,
+                "name": "旅館 ロイヤル大網白里",
+                "prefecture": 12,
+                "address": "千葉県大網白里市□□3-2",
+                "conditions": [
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 6,
+                        "name": "キングサイズ",
+                        "capacity": 4,
+                        "count": 6,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "name": "シングル・広いお部屋",
+                        "capacity": 1,
+                        "count": 10,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "name": "ダブルサイズ・広い部屋・禁煙ルーム",
+                        "capacity": 3,
+                        "count": 1,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 3,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "name": "セミダブル・広いお部屋",
+                        "capacity": 2,
+                        "count": 5,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 14,
+                            "name": "素泊まりプラン",
+                            "room_id": 6,
+                            "price": 15600,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 15,
+                            "name": "素泊まりプラン",
+                            "room_id": 7,
+                            "price": 8400,
+                            "conditions": []
+                        },
+                        {
+                            "id": 16,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 7,
+                            "price": 15900,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 17,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 7,
+                            "price": 12900,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 18,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 7,
+                            "price": 14900,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 19,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 8,
+                            "price": 16800,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 20,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 8,
+                            "price": 15300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 21,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 8,
+                            "price": 17300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 8,
+                            "price": 13300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 23,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 9,
+                            "price": 17300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 24,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 9,
+                            "price": 17300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 25,
+                            "name": "素泊まりプラン",
+                            "room_id": 10,
+                            "price": 9000,
+                            "conditions": []
+                        },
+                        {
+                            "id": 26,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 10,
+                            "price": 15500,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 27,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 10,
+                            "price": 10000,
+                            "conditions": []
+                        },
+                        {
+                            "id": 28,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 10,
+                            "price": 13000,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 4,
+                "name": "ホテル ウエストコート",
+                "prefecture": 13,
+                "address": "東京都東村山市□□3-2",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 11,
+                        "name": "キングサイズ",
+                        "capacity": 6,
+                        "count": 9,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 29,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 11,
+                            "price": 18000,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 30,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 11,
+                            "price": 17500,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 5,
+                "name": "格安ホテル ロイヤル温泉",
+                "prefecture": 9,
+                "address": "栃木県那須塩原市××3-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 12,
+                        "name": "シングル・広めのお部屋",
+                        "capacity": 1,
+                        "count": 3,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "name": "シングル・広めのお部屋",
+                        "capacity": 1,
+                        "count": 7,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "name": "キングサイズ",
+                        "capacity": 6,
+                        "count": 5,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 15,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 2,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 16,
+                        "name": "シングル・広めのお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 4,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 31,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 12,
+                            "price": 4960,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 32,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 12,
+                            "price": 10460,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 33,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 13,
+                            "price": 10460,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 34,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 13,
+                            "price": 7960,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 35,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 13,
+                            "price": 6460,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 36,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 14,
+                            "price": 14580,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 37,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 14,
+                            "price": 13580,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 38,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 14,
+                            "price": 16080,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 39,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 14,
+                            "price": 15080,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 40,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 14,
+                            "price": 12080,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 41,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 15,
+                            "price": 12440,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 42,
+                            "name": "素泊まりプラン",
+                            "room_id": 16,
+                            "price": 3960,
+                            "conditions": []
+                        },
+                        {
+                            "id": 43,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 16,
+                            "price": 9960,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 44,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 16,
+                            "price": 10460,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 6,
+                "name": "駅前ホテル ゆうゆうストリート",
+                "prefecture": 13,
+                "address": "東京都小金井市△△3-3",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 17,
+                        "name": "シングル・広いお部屋",
+                        "capacity": 1,
+                        "count": 2,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 45,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 17,
+                            "price": 7930,
+                            "conditions": []
+                        },
+                        {
+                            "id": 46,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 17,
+                            "price": 10430,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 47,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 17,
+                            "price": 9430,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 7,
+                "name": "カプセルホテル ロイヤルアップ",
+                "prefecture": 14,
+                "address": "神奈川県相模原市××3-2",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 18,
+                        "name": "ダブルサイズ",
+                        "capacity": 3,
+                        "count": 7,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 19,
+                        "name": "シングル",
+                        "capacity": 1,
+                        "count": 8,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 48,
+                            "name": "素泊まりプラン",
+                            "room_id": 18,
+                            "price": 3150,
+                            "conditions": []
+                        },
+                        {
+                            "id": 49,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 18,
+                            "price": 9650,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 50,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 19,
+                            "price": 7250,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 51,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 19,
+                            "price": 5750,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 8,
+                "name": "カプセルホテル グランドシステム",
+                "prefecture": 11,
+                "address": "埼玉県蕨市××2-3",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 20,
+                        "name": "ダブルサイズ・禁煙ルーム",
+                        "capacity": 3,
+                        "count": 8,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 21,
+                        "name": "シングル・広めのお部屋",
+                        "capacity": 1,
+                        "count": 3,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 22,
+                        "name": "セミダブル",
+                        "capacity": 2,
+                        "count": 7,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 23,
+                        "name": "シングル・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 10,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 24,
+                        "name": "シングル・広めのお部屋",
+                        "capacity": 1,
+                        "count": 5,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 52,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 20,
+                            "price": 4850,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 53,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 20,
+                            "price": 9850,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 54,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 20,
+                            "price": 7350,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 55,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 20,
+                            "price": 6350,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 56,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 21,
+                            "price": 9800,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 57,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 21,
+                            "price": 6800,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 58,
+                            "name": "素泊まりプラン",
+                            "room_id": 22,
+                            "price": 3025,
+                            "conditions": []
+                        },
+                        {
+                            "id": 59,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 22,
+                            "price": 8025,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 60,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 22,
+                            "price": 10525,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 61,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 22,
+                            "price": 9525,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 62,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 22,
+                            "price": 9525,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 63,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 23,
+                            "price": 6250,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 64,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 24,
+                            "price": 10800,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 65,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 24,
+                            "price": 6800,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 9,
+                "name": "天然温泉 ゆうゆう温泉 別館",
+                "prefecture": 11,
+                "address": "埼玉県戸田市〇〇3-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 25,
+                        "name": "セミダブル・禁煙ルーム",
+                        "capacity": 2,
+                        "count": 4,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 26,
+                        "name": "シングル・広めのお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 4,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 27,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 1,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 66,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 25,
+                            "price": 15317,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 67,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 25,
+                            "price": 10317,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 68,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 26,
+                            "price": 17664,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 69,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 26,
+                            "price": 14664,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 70,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 26,
+                            "price": 14164,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 71,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 26,
+                            "price": 12664,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 72,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 27,
+                            "price": 17511,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 73,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 27,
+                            "price": 13511,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 10,
+                "name": "旅館 グランドライト 新館",
+                "prefecture": 14,
+                "address": "神奈川県南足柄市△△1-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 28,
+                        "name": "シングル・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 10,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 29,
+                        "name": "ダブルサイズ",
+                        "capacity": 3,
+                        "count": 10,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 30,
+                        "name": "シングル・広めのお部屋",
+                        "capacity": 1,
+                        "count": 3,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "セミダブル・禁煙ルーム",
+                        "capacity": 2,
+                        "count": 8,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 32,
+                        "name": "シングル",
+                        "capacity": 1,
+                        "count": 1,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 74,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 28,
+                            "price": 13100,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 75,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 28,
+                            "price": 10100,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 76,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 28,
+                            "price": 7600,
+                            "conditions": []
+                        },
+                        {
+                            "id": 77,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 28,
+                            "price": 9100,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 78,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 29,
+                            "price": 13740,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 79,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 29,
+                            "price": 12740,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 80,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 29,
+                            "price": 10240,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 81,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 30,
+                            "price": 11920,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 82,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 30,
+                            "price": 10420,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 83,
+                            "name": "素泊まりプラン",
+                            "room_id": 31,
+                            "price": 7260,
+                            "conditions": []
+                        },
+                        {
+                            "id": 84,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 31,
+                            "price": 13760,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 85,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 31,
+                            "price": 13760,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 86,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 32,
+                            "price": 7600,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 87,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 32,
+                            "price": 10100,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "input": {
+            "keyword": "横浜",
+            "advanced": false
+        },
+        "output": [
+            {
+                "id": 55,
+                "name": "コンドミニアム イースト富士",
+                "prefecture": 14,
+                "address": "神奈川県横浜市××3-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 168,
+                        "name": "クイーンサイズ",
+                        "capacity": 4,
+                        "count": 4,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 461,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 168,
+                            "price": 15740,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "input": {
+            "keyword": "コンドミニアム",
+            "advanced": false
+        },
+        "output": [
+            {
+                "id": 1,
+                "name": "コンドミニアム ゆうゆう勝浦",
+                "prefecture": 12,
+                "address": "千葉県勝浦市□□2-2",
+                "conditions": [],
+                "rooms": [
+                    {
+                        "id": 1,
+                        "name": "シングル",
+                        "capacity": 1,
+                        "count": 2,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "シングル・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 5,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "クイーンサイズ",
+                        "capacity": 4,
+                        "count": 9,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 2,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 1,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 1,
+                            "price": 8500,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 2,
+                            "name": "素泊まりプラン",
+                            "room_id": 2,
+                            "price": 3500,
+                            "conditions": []
+                        },
+                        {
+                            "id": 3,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 2,
+                            "price": 10000,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 4,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 3,
+                            "price": 14200,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 3,
+                            "price": 12200,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 3,
+                            "price": 8700,
+                            "conditions": []
+                        },
+                        {
+                            "id": 7,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 3,
+                            "price": 11700,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 8,
+                            "name": "素泊まりプラン",
+                            "room_id": 4,
+                            "price": 6300,
+                            "conditions": []
+                        },
+                        {
+                            "id": 9,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 4,
+                            "price": 8800,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 16,
+                "name": "コンドミニアム ノースレイク",
+                "prefecture": 11,
+                "address": "埼玉県朝霞市□□3-2",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 52,
+                        "name": "ダブルサイズ",
+                        "capacity": 3,
+                        "count": 7,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 53,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 2,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 151,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 52,
+                            "price": 12380,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 152,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 53,
+                            "price": 6460,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 153,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 53,
+                            "price": 11460,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 154,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 53,
+                            "price": 10460,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 155,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 53,
+                            "price": 12960,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 156,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 53,
+                            "price": 7960,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 17,
+                "name": "コンドミニアム リアルアップ アネックス",
+                "prefecture": 12,
+                "address": "千葉県鴨川市△△2-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 54,
+                        "name": "シングル",
+                        "capacity": 1,
+                        "count": 9,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 55,
+                        "name": "シングル・広めのお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 10,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 56,
+                        "name": "シングル",
+                        "capacity": 1,
+                        "count": 7,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 57,
+                        "name": "シングル・広めのお部屋",
+                        "capacity": 1,
+                        "count": 7,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 58,
+                        "name": "シングル・広いお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 7,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 157,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 54,
+                            "price": 11540,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 158,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 54,
+                            "price": 11540,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 159,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 54,
+                            "price": 9040,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 160,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 54,
+                            "price": 7540,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 161,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 55,
+                            "price": 7048,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 162,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 56,
+                            "price": 9540,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 163,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 56,
+                            "price": 11540,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 164,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 57,
+                            "price": 7048,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 165,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 57,
+                            "price": 13548,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 166,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 57,
+                            "price": 9548,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 167,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 57,
+                            "price": 8548,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 168,
+                            "name": "素泊まりプラン",
+                            "room_id": 58,
+                            "price": 7056,
+                            "conditions": []
+                        },
+                        {
+                            "id": 169,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 58,
+                            "price": 13056,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 170,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 58,
+                            "price": 10556,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 24,
+                "name": "コンドミニアム サウスサイド",
+                "prefecture": 13,
+                "address": "東京都国分寺市△△2-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 74,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 7,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 75,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 3,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 76,
+                        "name": "シングル・広めのお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 8,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 199,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 74,
+                            "price": 14060,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 200,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 74,
+                            "price": 14060,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 201,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 74,
+                            "price": 14060,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 202,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 75,
+                            "price": 6460,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 203,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 75,
+                            "price": 12960,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 204,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 75,
+                            "price": 11960,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 205,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 75,
+                            "price": 6460,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 206,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 76,
+                            "price": 11040,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 207,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 76,
+                            "price": 7540,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 26,
+                "name": "コンドミニアム ウエストコート",
+                "prefecture": 11,
+                "address": "埼玉県所沢市△△1-2",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 79,
+                        "name": "シングル・広いお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 9,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 217,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 79,
+                            "price": 11370,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 218,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 79,
+                            "price": 7370,
+                            "conditions": []
+                        },
+                        {
+                            "id": 219,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 79,
+                            "price": 10370,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 42,
+                "name": "コンドミニアム ノースコート 別館",
+                "prefecture": 12,
+                "address": "千葉県君津市△△1-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 122,
+                        "name": "シングル・広めのお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 6,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 123,
+                        "name": "シングル",
+                        "capacity": 1,
+                        "count": 6,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 331,
+                            "name": "素泊まりプラン",
+                            "room_id": 122,
+                            "price": 6006,
+                            "conditions": []
+                        },
+                        {
+                            "id": 332,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 122,
+                            "price": 7006,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 333,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 122,
+                            "price": 12006,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 334,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 122,
+                            "price": 12506,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 335,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 123,
+                            "price": 9505,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 55,
+                "name": "コンドミニアム イースト富士",
+                "prefecture": 14,
+                "address": "神奈川県横浜市××3-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 168,
+                        "name": "クイーンサイズ",
+                        "capacity": 4,
+                        "count": 4,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 461,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 168,
+                            "price": 15740,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 58,
+                "name": "コンドミニアム スマイルフォレスト",
+                "prefecture": 11,
+                "address": "埼玉県久喜市□□3-3",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 177,
+                        "name": "シングル",
+                        "capacity": 1,
+                        "count": 7,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 480,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 177,
+                            "price": 5550,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 481,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 177,
+                            "price": 9050,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 482,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 177,
+                            "price": 8050,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 66,
+                "name": "コンドミニアム ロイヤル茨城 本館",
+                "prefecture": 8,
+                "address": "茨城県つくば市△△1-1",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 197,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 3,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 198,
+                        "name": "シングル・広いお部屋",
+                        "capacity": 1,
+                        "count": 9,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 199,
+                        "name": "セミダブル・広めのお部屋・禁煙ルーム",
+                        "capacity": 2,
+                        "count": 6,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 529,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 197,
+                            "price": 14430,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 530,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 197,
+                            "price": 9430,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 531,
+                            "name": "素泊まりプラン",
+                            "room_id": 198,
+                            "price": 5390,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 532,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 199,
+                            "price": 11505,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 533,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 199,
+                            "price": 8505,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 73,
+                "name": "コンドミニアム サンアップ アネックス",
+                "prefecture": 14,
+                "address": "神奈川県相模原市△△1-1",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 220,
+                        "name": "ダブルサイズ",
+                        "capacity": 3,
+                        "count": 1,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 221,
+                        "name": "シングル・広めのお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 4,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 592,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 220,
+                            "price": 13644,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 593,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 220,
+                            "price": 15144,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 594,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 220,
+                            "price": 12144,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 595,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 221,
+                            "price": 7552,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 596,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 221,
+                            "price": 12552,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 597,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 221,
+                            "price": 11552,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 598,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 221,
+                            "price": 11052,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 599,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 221,
+                            "price": 10052,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "input": {
+            "keyword": "",
+            "prefecture": 12,
+            "checkin": 0,
+            "checkout": 1,
+            "number": 2,
+            "advanced": true
+        },
+        "output": [
+            {
+                "id": 1,
+                "name": "コンドミニアム ゆうゆう勝浦",
+                "prefecture": 12,
+                "address": "千葉県勝浦市□□2-2",
+                "conditions": [],
+                "rooms": [
+                    {
+                        "id": 3,
+                        "name": "クイーンサイズ",
+                        "capacity": 4,
+                        "count": 9,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 2,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 4,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 3,
+                            "price": 14200,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 3,
+                            "price": 12200,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 3,
+                            "price": 8700,
+                            "conditions": []
+                        },
+                        {
+                            "id": 7,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 3,
+                            "price": 11700,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 8,
+                            "name": "素泊まりプラン",
+                            "room_id": 4,
+                            "price": 6300,
+                            "conditions": []
+                        },
+                        {
+                            "id": 9,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 4,
+                            "price": 8800,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 3,
+                "name": "旅館 ロイヤル大網白里",
+                "prefecture": 12,
+                "address": "千葉県大網白里市□□3-2",
+                "conditions": [
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 6,
+                        "name": "キングサイズ",
+                        "capacity": 4,
+                        "count": 6,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "name": "ダブルサイズ・広い部屋・禁煙ルーム",
+                        "capacity": 3,
+                        "count": 1,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 3,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "name": "セミダブル・広いお部屋",
+                        "capacity": 2,
+                        "count": 5,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 14,
+                            "name": "素泊まりプラン",
+                            "room_id": 6,
+                            "price": 15600,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 19,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 8,
+                            "price": 16800,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 20,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 8,
+                            "price": 15300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 21,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 8,
+                            "price": 17300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 8,
+                            "price": 13300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 23,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 9,
+                            "price": 17300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 24,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 9,
+                            "price": 17300,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 25,
+                            "name": "素泊まりプラン",
+                            "room_id": 10,
+                            "price": 9000,
+                            "conditions": []
+                        },
+                        {
+                            "id": 26,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 10,
+                            "price": 15500,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 27,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 10,
+                            "price": 10000,
+                            "conditions": []
+                        },
+                        {
+                            "id": 28,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 10,
+                            "price": 13000,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 19,
+                "name": "ビジネスホテル ノース勝浦",
+                "prefecture": 12,
+                "address": "千葉県勝浦市××2-1",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 60,
+                        "name": "セミダブル・広いお部屋",
+                        "capacity": 2,
+                        "count": 5,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 61,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 8,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 173,
+                            "name": "素泊まりプラン",
+                            "room_id": 60,
+                            "price": 6000,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 174,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 61,
+                            "price": 6200,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 20,
+                "name": "カプセルホテル サウスアップ",
+                "prefecture": 12,
+                "address": "千葉県袖ヶ浦市××2-1",
+                "conditions": [],
+                "rooms": [
+                    {
+                        "id": 62,
+                        "name": "キングサイズ",
+                        "capacity": 5,
+                        "count": 10,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 66,
+                        "name": "セミダブル",
+                        "capacity": 2,
+                        "count": 6,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 175,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 62,
+                            "price": 12150,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 176,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 62,
+                            "price": 8150,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 183,
+                            "name": "素泊まりプラン",
+                            "room_id": 66,
+                            "price": 3025,
+                            "conditions": []
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 23,
+                "name": "ビジネスホテル ウエストストリート 新館",
+                "prefecture": 12,
+                "address": "千葉県八街市□□2-2",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 72,
+                        "name": "セミダブル",
+                        "capacity": 2,
+                        "count": 1,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 73,
+                        "name": "キングサイズ",
+                        "capacity": 7,
+                        "count": 7,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 197,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 72,
+                            "price": 12836,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 198,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 73,
+                            "price": 15976,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 33,
+                "name": "格安ホテル サウスレイク",
+                "prefecture": 12,
+                "address": "千葉県木更津市〇〇2-3",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 100,
+                        "name": "セミダブル・禁煙ルーム",
+                        "capacity": 2,
+                        "count": 9,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 269,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 100,
+                            "price": 8960,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 270,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 100,
+                            "price": 7960,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 271,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 100,
+                            "price": 6460,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 35,
+                "name": "ホテル ノースサイド",
+                "prefecture": 12,
+                "address": "千葉県富津市△△3-2",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 104,
+                        "name": "ダブルサイズ",
+                        "capacity": 3,
+                        "count": 10,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 105,
+                        "name": "セミダブル・広いお部屋",
+                        "capacity": 2,
+                        "count": 9,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 106,
+                        "name": "ダブルサイズ",
+                        "capacity": 3,
+                        "count": 6,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 279,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 104,
+                            "price": 14100,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 280,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 104,
+                            "price": 15600,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 281,
+                            "name": "素泊まりプラン",
+                            "room_id": 105,
+                            "price": 9750,
+                            "conditions": []
+                        },
+                        {
+                            "id": 282,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 105,
+                            "price": 14250,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 283,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 105,
+                            "price": 10750,
+                            "conditions": []
+                        },
+                        {
+                            "id": 284,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 105,
+                            "price": 12250,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 285,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 106,
+                            "price": 15100,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 286,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 106,
+                            "price": 15600,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 287,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 106,
+                            "price": 10100,
+                            "conditions": []
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 53,
+                "name": "温泉旅館 サウスフォレスト 本館",
+                "prefecture": 12,
+                "address": "千葉県四街道市××3-2",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 159,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 8,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 160,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 1,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 162,
+                        "name": "セミダブル・広いお部屋",
+                        "capacity": 2,
+                        "count": 7,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 440,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 159,
+                            "price": 11296,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 441,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 159,
+                            "price": 15296,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 442,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 159,
+                            "price": 14796,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 443,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 159,
+                            "price": 13796,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 444,
+                            "name": "素泊まりプラン",
+                            "room_id": 160,
+                            "price": 10296,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 448,
+                            "name": "素泊まりプラン",
+                            "room_id": 162,
+                            "price": 11880,
+                            "conditions": []
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 75,
+                "name": "駅前ホテル リッチサイド アネックス",
+                "prefecture": 12,
+                "address": "千葉県勝浦市××3-3",
+                "conditions": [
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 228,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 5,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 229,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 1,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 612,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 228,
+                            "price": 12626,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 613,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 228,
+                            "price": 15626,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 614,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 229,
+                            "price": 13636,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 615,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 229,
+                            "price": 17636,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 616,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 229,
+                            "price": 15136,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 85,
+                "name": "駅前ホテル ムーンアップ 別館",
+                "prefecture": 12,
+                "address": "千葉県富津市□□2-1",
+                "conditions": [],
+                "rooms": [
+                    {
+                        "id": 263,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 6,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 713,
+                            "name": "素泊まりプラン",
+                            "room_id": 263,
+                            "price": 8365,
+                            "conditions": []
+                        },
+                        {
+                            "id": 714,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 263,
+                            "price": 14865,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 715,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 263,
+                            "price": 12865,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 716,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 263,
+                            "price": 9365,
+                            "conditions": []
+                        },
+                        {
+                            "id": 717,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 263,
+                            "price": 14865,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "input": {
+            "keyword": "",
+            "prefecture": 13,
+            "checkin": 1,
+            "checkout": 2,
+            "number": 2,
+            "advanced": true
+        },
+        "output": [
+            {
+                "id": 4,
+                "name": "ホテル ウエストコート",
+                "prefecture": 13,
+                "address": "東京都東村山市□□3-2",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 11,
+                        "name": "キングサイズ",
+                        "capacity": 6,
+                        "count": 9,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 29,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 11,
+                            "price": 18000,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 30,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 11,
+                            "price": 17500,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 30,
+                "name": "カプセルホテル サン温泉",
+                "prefecture": 13,
+                "address": "東京都福生市□□3-1",
+                "conditions": [
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 93,
+                        "name": "クイーンサイズ",
+                        "capacity": 6,
+                        "count": 5,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 251,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 93,
+                            "price": 7600,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 252,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 93,
+                            "price": 9100,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 43,
+                "name": "ホテル スマイル西東京 新館",
+                "prefecture": 13,
+                "address": "東京都西東京市△△1-3",
+                "conditions": [
+                    "onsen"
+                ],
+                "rooms": [
+                    {
+                        "id": 126,
+                        "name": "キングサイズ",
+                        "capacity": 5,
+                        "count": 4,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 128,
+                        "name": "クイーンサイズ・禁煙ルーム",
+                        "capacity": 7,
+                        "count": 8,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 340,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 126,
+                            "price": 23100,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 341,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 126,
+                            "price": 22100,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 342,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 126,
+                            "price": 19100,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 343,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 126,
+                            "price": 22100,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 345,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 128,
+                            "price": 18200,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 346,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 128,
+                            "price": 19700,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 347,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 128,
+                            "price": 17200,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 80,
+                "name": "旅館 サウスコート",
+                "prefecture": 13,
+                "address": "東京都府中市〇〇3-2",
+                "conditions": [
+                    "onsen",
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 245,
+                        "name": "クイーンサイズ・禁煙ルーム",
+                        "capacity": 5,
+                        "count": 8,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 664,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 245,
+                            "price": 19700,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 665,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 245,
+                            "price": 19700,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 666,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 245,
+                            "price": 17200,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 84,
+                "name": "温泉旅館 ウエストレイク",
+                "prefecture": 13,
+                "address": "東京都府中市××3-1",
+                "conditions": [
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 261,
+                        "name": "キングサイズ",
+                        "capacity": 8,
+                        "count": 9,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 708,
+                            "name": "朝夕・A5和牛焼肉プラン",
+                            "room_id": 261,
+                            "price": 26220,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 709,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 261,
+                            "price": 19720,
+                            "conditions": []
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "input": {
+            "keyword": "カプセルホテル",
+            "prefecture": 13,
+            "checkin": 0,
+            "checkout": 5,
+            "number": 1,
+            "advanced": true
+        },
+        "output": [
+            {
+                "id": 30,
+                "name": "カプセルホテル サン温泉",
+                "prefecture": 13,
+                "address": "東京都福生市□□3-1",
+                "conditions": [
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 90,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 8,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 91,
+                        "name": "ダブルサイズ",
+                        "capacity": 3,
+                        "count": 3,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 92,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 8,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 93,
+                        "name": "クイーンサイズ",
+                        "capacity": 6,
+                        "count": 5,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 237,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 90,
+                            "price": 8900,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 238,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 90,
+                            "price": 8400,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 239,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 90,
+                            "price": 7400,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 240,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 90,
+                            "price": 4900,
+                            "conditions": []
+                        },
+                        {
+                            "id": 241,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 90,
+                            "price": 10400,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 242,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 91,
+                            "price": 5200,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 243,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 91,
+                            "price": 10700,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 244,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 91,
+                            "price": 5200,
+                            "conditions": []
+                        },
+                        {
+                            "id": 245,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 91,
+                            "price": 10700,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 246,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 91,
+                            "price": 6700,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 247,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 92,
+                            "price": 11400,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 248,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 92,
+                            "price": 10400,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 249,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 92,
+                            "price": 6400,
+                            "conditions": []
+                        },
+                        {
+                            "id": 250,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 92,
+                            "price": 9400,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 251,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 93,
+                            "price": 7600,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 252,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 93,
+                            "price": 9100,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 69,
+                "name": "カプセルホテル ウエスト小平 本館",
+                "prefecture": 13,
+                "address": "東京都小平市△△2-2",
+                "conditions": [
+                    "parking"
+                ],
+                "rooms": [
+                    {
+                        "id": 205,
+                        "name": "シングル・広いお部屋",
+                        "capacity": 1,
+                        "count": 8,
+                        "conditions": [
+                            "smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 206,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 7,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 207,
+                        "name": "セミダブル・広いお部屋",
+                        "capacity": 2,
+                        "count": 3,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 208,
+                        "name": "ダブルサイズ・広い部屋",
+                        "capacity": 3,
+                        "count": 10,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 544,
+                            "name": "素泊まりプラン",
+                            "room_id": 205,
+                            "price": 3465,
+                            "conditions": []
+                        },
+                        {
+                            "id": 545,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 205,
+                            "price": 8465,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 546,
+                            "name": "夕のみ・A5和牛焼肉プラン",
+                            "room_id": 205,
+                            "price": 9965,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 547,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 205,
+                            "price": 9965,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 548,
+                            "name": "素泊まり・GUAカード(1000円)付きプラン",
+                            "room_id": 205,
+                            "price": 4465,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 549,
+                            "name": "素泊まりプラン",
+                            "room_id": 206,
+                            "price": 4455,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 550,
+                            "name": "素泊まりプラン",
+                            "room_id": 207,
+                            "price": 3712,
+                            "conditions": []
+                        }
+                    ],
+                    [
+                        {
+                            "id": 551,
+                            "name": "朝のみ・レイトチェックインプラン",
+                            "room_id": 208,
+                            "price": 5455,
+                            "conditions": [
+                                "breakfast"
+                            ]
+                        },
+                        {
+                            "id": 552,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 208,
+                            "price": 9455,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 553,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 208,
+                            "price": 8955,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 554,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 208,
+                            "price": 10955,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 555,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 208,
+                            "price": 8455,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 78,
+                "name": "カプセルホテル 金剛オーシャン アネックス",
+                "prefecture": 13,
+                "address": "東京都西東京市□□1-3",
+                "conditions": [],
+                "rooms": [
+                    {
+                        "id": 235,
+                        "name": "シングル・広めのお部屋",
+                        "capacity": 1,
+                        "count": 1,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    },
+                    {
+                        "id": 236,
+                        "name": "シングル・広いお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 2,
+                        "conditions": [
+                            "no-smoking",
+                            "bathroom"
+                        ]
+                    },
+                    {
+                        "id": 237,
+                        "name": "シングル・広いお部屋",
+                        "capacity": 1,
+                        "count": 3,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 238,
+                        "name": "シングル・広めのお部屋・禁煙ルーム",
+                        "capacity": 1,
+                        "count": 10,
+                        "conditions": [
+                            "no-smoking"
+                        ]
+                    },
+                    {
+                        "id": 239,
+                        "name": "セミダブル・広めのお部屋",
+                        "capacity": 2,
+                        "count": 10,
+                        "conditions": [
+                            "smoking"
+                        ]
+                    }
+                ],
+                "plans": [
+                    [
+                        {
+                            "id": 629,
+                            "name": "朝夕・バイキングプラン",
+                            "room_id": 235,
+                            "price": 7740,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 630,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 235,
+                            "price": 6740,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 631,
+                            "name": "夕のみ・食事少な目プラン",
+                            "room_id": 235,
+                            "price": 5740,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 632,
+                            "name": "朝夕・懐石料理プラン",
+                            "room_id": 236,
+                            "price": 9780,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 633,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 236,
+                            "price": 8780,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 634,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 236,
+                            "price": 7780,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 635,
+                            "name": "朝夕・豪華海の幸プラン",
+                            "room_id": 237,
+                            "price": 10280,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 636,
+                            "name": "朝夕・和膳プラン",
+                            "room_id": 237,
+                            "price": 10280,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 637,
+                            "name": "朝夕・ヘルシー山菜プラン",
+                            "room_id": 237,
+                            "price": 7780,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 638,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 237,
+                            "price": 7280,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 639,
+                            "name": "素泊まりプラン",
+                            "room_id": 238,
+                            "price": 3240,
+                            "conditions": []
+                        },
+                        {
+                            "id": 640,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 238,
+                            "price": 8240,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 641,
+                            "name": "夕のみ・バイキングプラン",
+                            "room_id": 238,
+                            "price": 6740,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        },
+                        {
+                            "id": 642,
+                            "name": "朝夕・食事少な目プラン",
+                            "room_id": 238,
+                            "price": 6740,
+                            "conditions": [
+                                "breakfast",
+                                "dinner"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "id": 643,
+                            "name": "夕のみ・懐石料理プラン",
+                            "room_id": 239,
+                            "price": 8510,
+                            "conditions": [
+                                "dinner"
+                            ]
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

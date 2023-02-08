@@ -1,0 +1,47 @@
+[
+    {
+        "input": {
+            "keyword": "",
+            "prefecture": 12,
+            "checkin": 0,
+            "checkout": 1,
+            "number": 2,
+            "planId": 615,
+            "full_reserve": false,
+            "require_search": true
+        },
+        "output": {
+            "class": "message-success"
+        }
+    },
+    {
+        "input": {
+            "keyword": "",
+            "prefecture": 12,
+            "checkin": 0,
+            "checkout": 1,
+            "number": 2,
+            "planId": 4,
+            "full_reserve": true,
+            "require_search": true
+        },
+        "output": {
+            "class": "message-error"
+        }
+    },
+    {
+        "input": {
+            "keyword": "",
+            "prefecture": 12,
+            "checkin": 0,
+            "checkout": 1,
+            "number": 2,
+            "planId": 5,
+            "full_reserve": false,
+            "require_search": false
+        },
+        "output": {
+            "class": "message-error"
+        }
+    }
+]
