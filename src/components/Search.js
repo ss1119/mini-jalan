@@ -3,9 +3,10 @@ import { Button, Row, Col, Form, Container } from "react-bootstrap";
 import axios from "../lib/axios";
 import SearchResult from "./SearchResult";
 import Option from "./parts/Option";
-import CheckBox from "./parts/CheckBox";
+import CheckBoxList from "./parts/CheckBoxList";
 import ReservationResultDialog from "./parts/ReservationResultDialog";
 import { prefectures } from "../utils/prefecture";
+import { checkList } from "../utils/checkList";
 import { getToday, getXDaysLater, getStayDays } from "../utils/date";
 
 const Search = (props) => {
@@ -17,6 +18,7 @@ const Search = (props) => {
   const [number, setNumber] = useState(2);
   const [searchedNumber, setSearchedNumber] = useState(0);
   const [searchedStayDays, setSearchedStayDays] = useState(0);
+  const [checkedItems, setCheckedItems] = useState({});
   const [isValid, setIsValid] = useState(false);
   const [hotels, setHotels] = useState([]);
   const [reservation, setReservation] = useState([]);
@@ -52,6 +54,14 @@ const Search = (props) => {
     checkValid();
   }, [prefecture, checkin, checkout, number]);
 
+  // チェックボックスの値が変わった時にstateを更新
+  const handleCheckChange = (e) => {
+    setCheckedItems({
+      ...checkedItems,
+      [e.target.id - 1]: e.target.checked,
+    });
+  };
+
   const checkValid = () => {
     if (
       1 <= prefecture &&
@@ -72,12 +82,20 @@ const Search = (props) => {
     setSearchedNumber(number);
     setSearchedStayDays(getStayDays(checkin, checkout));
 
+    // 詳細条件
+    const condition = Object.keys(checkedItems)
+      .flatMap((key) => {
+        return checkedItems[key] ? checkList[key].value : [];
+      })
+      .join(",");
+
     const query = new URLSearchParams({
       keyword: keyword,
       prefecture: prefecture,
       checkin: checkin,
       checkout: checkout,
       number: number,
+      condition: condition,
     });
     await axios
       .get(`/hotels?${query}`, {
@@ -181,27 +199,11 @@ const Search = (props) => {
               </Row>
               <br />
               <Row>
-                <Col md="auto">
-                  <CheckBox name="温泉" />
-                </Col>
-                <Col md="auto">
-                  <CheckBox name="パーキング無料" />
-                </Col>
-                <Col md="auto">
-                  <CheckBox name="禁煙部屋" />
-                </Col>
-                <Col md="auto">
-                  <CheckBox name="喫煙部屋" />
-                </Col>
-                <Col md="auto">
-                  <CheckBox name="バス・トイレ付" />
-                </Col>
-                <Col md="auto">
-                  <CheckBox name="朝食付" />
-                </Col>
-                <Col md="auto">
-                  <CheckBox name="夕食付" />
-                </Col>
+                <CheckBoxList
+                  checkList={checkList}
+                  checkedItems={checkedItems}
+                  handleChange={handleCheckChange}
+                />
               </Row>
             </Form.Group>
           </Col>
