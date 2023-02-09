@@ -99,7 +99,7 @@ const Search = (props) => {
 
     const query = new URLSearchParams({
       keyword: keyword,
-      prefecture: "",
+      prefecture: prefecture,
       checkin: checkin,
       checkout: checkout,
       number: number,
@@ -137,7 +137,7 @@ const Search = (props) => {
 
     const query = new URLSearchParams({
       keyword: keyword,
-      prefecture: "",
+      prefecture: prefecture,
       checkin: checkin,
       checkout: checkout,
       number: number,
