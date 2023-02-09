@@ -3,6 +3,7 @@ import { Button, Row, Col, Form, Container } from "react-bootstrap";
 import axios from "../lib/axios";
 import SearchResult from "./SearchResult";
 import Option from "./parts/Option";
+import Loading from "./parts/Loading";
 import CheckBoxList from "./parts/CheckBoxList";
 import ReservationResultDialog from "./parts/ReservationResultDialog";
 import { prefectures } from "../utils/prefecture";
@@ -23,6 +24,7 @@ const Search = (props) => {
   const [hotels, setHotels] = useState([]);
   const [reservation, setReservation] = useState([]);
   const [dialogShow, setDialogShow] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
   const options = prefectures.map((value, index) => {
@@ -78,6 +80,8 @@ const Search = (props) => {
   };
 
   const onSearchClick = async () => {
+    setIsLoading(true);
+
     // 検索した人数および宿泊日数を保持
     setSearchedNumber(number);
     setSearchedStayDays(getStayDays(checkin, checkout));
@@ -108,6 +112,9 @@ const Search = (props) => {
       })
       .catch(() => {
         throw `Invalid token: ${props.token}`;
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 
@@ -137,6 +144,7 @@ const Search = (props) => {
 
   return (
     <>
+      <Loading isLoading={isLoading} />
       <ReservationResultDialog
         isSuccess={isSuccess}
         show={dialogShow}
