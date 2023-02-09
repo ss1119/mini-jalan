@@ -266,14 +266,19 @@ const Search = (props) => {
             </Form.Group>
           </Col>
           <Col md="auto">
-            <Button
+            <button
               type="submit"
               id="search"
+              className={
+                isValid
+                  ? "block w-24 text-white bg-blue-600 px-4 py-2 rounded-md border border-blue ml-5 mt-7"
+                  : "block w-24 text-white bg-blue-300 px-4 py-2 rounded-md border border-blue ml-5 mt-7"
+              }
               disabled={!isValid}
               onClick={onSearchClick}
             >
               Search
-            </Button>
+            </button>
           </Col>
         </Row>
       </Container>
@@ -286,6 +291,8 @@ const Search = (props) => {
         loadMore={loadMore}
         hasMore={hasMore}
       />
+      <br />
+      <br />
     </>
   );
 };
