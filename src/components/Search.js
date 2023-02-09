@@ -3,6 +3,7 @@ import { Button, Row, Col, Form, Container } from "react-bootstrap";
 import axios from "../lib/axios";
 import SearchResult from "./SearchResult";
 import Option from "./parts/Option";
+import Loading from "./parts/Loading";
 import CheckBoxList from "./parts/CheckBoxList";
 import ReservationResultDialog from "./parts/ReservationResultDialog";
 import { prefectures } from "../utils/prefecture";
@@ -25,6 +26,7 @@ const Search = (props) => {
   const [reservation, setReservation] = useState([]); // 予約内容
   const [dialogShow, setDialogShow] = useState(false); // ダイアログ表示の制御
   const [isSuccess, setIsSuccess] = useState(false); // 予約が完了したかどうか
+  const [isLoading, setIsLoading] = useState(false); // ローディングの制御
   const [hasMore, setHasMore] = useState(false); // 次に読み込む検索結果があるか
   const [lastHotelId, setLastHotelId] = useState(""); // 取得した最後のホテルのID
 
@@ -82,6 +84,8 @@ const Search = (props) => {
   };
 
   const onSearchClick = async () => {
+    setIsLoading(true);
+
     // 検索した人数および宿泊日数を保持
     setSearchedNumber(number);
     setSearchedStayDays(getStayDays(checkin, checkout));
@@ -158,6 +162,9 @@ const Search = (props) => {
       })
       .catch(() => {
         throw `Invalid token: ${props.token}`;
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 
@@ -187,6 +194,7 @@ const Search = (props) => {
 
   return (
     <>
+      <Loading isLoading={isLoading} />
       <ReservationResultDialog
         isSuccess={isSuccess}
         show={dialogShow}
