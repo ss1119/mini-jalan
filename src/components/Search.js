@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Row, Col, Form, Container } from "react-bootstrap";
+import { Row, Col, Form, Container } from "react-bootstrap";
 import axios from "../lib/axios";
 import SearchResult from "./SearchResult";
 import Option from "./parts/Option";
@@ -123,6 +123,9 @@ const Search = (props) => {
       })
       .catch(() => {
         throw `Invalid token: ${props.token}`;
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 
@@ -162,13 +165,11 @@ const Search = (props) => {
       })
       .catch(() => {
         throw `Invalid token: ${props.token}`;
-      })
-      .finally(() => {
-        setIsLoading(false);
       });
   };
 
   const onReserveClick = async (planId) => {
+    setIsLoading(true);
     const body = {
       checkin: checkin,
       checkout: checkout,
@@ -189,6 +190,9 @@ const Search = (props) => {
       .catch(() => {
         setIsSuccess(false);
         setDialogShow(true);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 

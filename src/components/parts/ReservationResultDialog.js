@@ -1,4 +1,4 @@
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 const ReservationResultDialog = (props) => {
   return (
@@ -33,7 +33,12 @@ const ReservationResultDialog = (props) => {
         )}
       </div>
       <Modal.Footer>
-        <Button onClick={props.onHide}>閉じる</Button>
+        <button
+          onClick={props.onHide}
+          className="block w-20 text-white bg-blue-600 py-2 rounded-md border border-blue"
+        >
+          閉じる
+        </button>
       </Modal.Footer>
     </Modal>
   );
