@@ -165,13 +165,11 @@ const Search = (props) => {
       })
       .catch(() => {
         throw `Invalid token: ${props.token}`;
-      })
-      .finally(() => {
-        setIsLoading(false);
       });
   };
 
   const onReserveClick = async (planId) => {
+    setIsLoading(true);
     const body = {
       checkin: checkin,
       checkout: checkout,
@@ -192,6 +190,9 @@ const Search = (props) => {
       .catch(() => {
         setIsSuccess(false);
         setDialogShow(true);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 
