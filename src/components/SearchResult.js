@@ -1,5 +1,7 @@
 import React from "react";
 import Hotel from "./Hotel";
+import InfiniteScroll from "react-infinite-scroller";
+import { Spinner } from "react-bootstrap";
 
 const SearchResult = (props) => {
   if (props.hotels === []) {
@@ -16,7 +18,25 @@ const SearchResult = (props) => {
       />
     );
   });
-  return <>{hotels}</>;
+  const loader = (
+    <div className="flex justify-center items-center mt-5">
+      <Spinner animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
+    </div>
+  );
+  return (
+    <div>
+      <InfiniteScroll
+        pageStart={0}
+        loadMore={props.loadMore}
+        hasMore={props.hasMore}
+        loader={loader}
+      >
+        {hotels}
+      </InfiniteScroll>
+    </div>
+  );
 };
 
 export default SearchResult;

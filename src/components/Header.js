@@ -41,14 +41,19 @@ const Header = (props) => {
         disabled={isInputDisabled}
         onChange={(e) => onAccessTokenChenged(e.target.value)}
       />
-      <Button
+      <button
         id="token_check"
+        className={
+          !isButtonDisabled
+            ? "block w-24 text-white bg-blue-600 px-4 py-2 rounded-md border border-blue ml-5"
+            : "block w-24 text-white bg-blue-300 px-4 py-2 rounded-md border border-blue ml-5"
+        }
         variant="primary"
         disabled={isButtonDisabled}
         onClick={onTokenCheckClick}
       >
         Access
-      </Button>
+      </button>
     </Navbar>
   );
 };
